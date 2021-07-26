@@ -2,5 +2,5 @@ package libfridabinres
 
 import _"embed"
 
-//go:embed frida_shared_windows_arm64.dll
+//go:embed libfrida_shared.so
 var FridaBinRes []byte
