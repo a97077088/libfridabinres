@@ -2,5 +2,5 @@ package libfridabinres
 
 import _ "embed"
 
-//go:embed frida_shared.dylib
+//go:embed libfrida_darwin_amd64
 var FridaBinRes []byte
